@@ -8,6 +8,7 @@ body {
   background-color: #222;
   width: 100%;
   height: 100vh;
+
 }
 .card-container {
   width: 100%;
@@ -15,6 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
 }
 .card {
   background: linear-gradient(135deg, #00feba, #5b548a);
