@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="card-container">
+<div class="card">
+<div class="search">
+  <input  placeholder="Enter City Name" type="text" name="" id="search">
+  <button class="btn"><img class="btn-img" src="https://cdn-icons-png.flaticon.com/128/3031/3031293.png" alt=""></button>
+</div>
+<div class="error hide">
+  <p  style="text-align: center;font-weight: 600;font-size: 15px;">Invalid City Name</p>
+</div>
+  <div class="weather hide">
+    <img  src="" alt="" class="weather-icon">
+   <h1 class="temp"></h1>
+    <h2 class="city" style="text-align: center;"></h2>
+    <div class="details">
+      <div class="humidity">
+        <img class="img-humidity" src="https://cdn-icons-png.flaticon.com/128/16932/16932665.png" alt="">
+        <div >
+        <p class="quantity humidity-percent" style="font-size: 20px;margin-bottom: 2px;"></p>
+        <p class="quantity-name">Humidity</p>
+      </div>
+      </div>
+      <div class="wind">
+        <img class="img-wind" src="https://cdn-icons-png.flaticon.com/128/11742/11742598.png" alt="">
+        <div>
+        <p  class="quantity wind-speed" style="font-size: 20px;margin-bottom: 2px;"></p>
+        <p class="quantity-name">Wind Speed</p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<footer><h6 style="font-size: 8px;text-align: center;margin-top:10px">Made With 🤍 By Zeeshan Amin</h6>
+  <script src="main.js"></script>
+</body>
+</html>
