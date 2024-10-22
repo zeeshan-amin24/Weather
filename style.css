@@ -23,7 +23,7 @@ body {
   border-radius: 25px;
   padding: 20px;
   overflow: auto;
-  height: 78%;
+  height: 87%;
 }
 .btn {
   border: none;
@@ -65,7 +65,7 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 90px;
 }
 .img-humidity {
   width: 40px;
@@ -128,7 +128,21 @@ body {
     font-size: 14px;
   }
 }
-
+@media(max-height: 545px){
+  .details{
+    margin-top: 80px;
+  }
+}
+@media(max-height: 530px){
+  .details{
+    margin-top: 60px;
+  }
+}
+@media(max-height: 500px){
+  .details{
+    margin-top: 40px;
+  }
+}
 
 .hide {
   display: none;
@@ -137,6 +151,7 @@ body {
   .card{
 height: 80%;
   }
+ 
 }
 @media(max-width: 526px){
   .card{
